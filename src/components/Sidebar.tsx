@@ -79,6 +79,7 @@ export function Sidebar({ collapsed }: SidebarProps) {
       className={`w-full justify-start h-10 px-3 ${
         collapsed ? 'px-2' : ''
       } text-muted-foreground hover:text-foreground hover:bg-muted transition-colors`}
+      onClick={() => window.location.href = path}
     >
       <Icon className="h-4 w-4 flex-shrink-0" />
       {!collapsed && <span className="ml-3 text-sm">{label}</span>}

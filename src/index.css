@@ -8,47 +8,47 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Professional HRM color scheme */
+    /* Custom color scheme */
     --background: 0 0% 100%;
-    --foreground: 0 0% 20%;
+    --foreground: 225 12% 19%;
 
     --card: 0 0% 100%;
-    --card-foreground: 0 0% 20%;
+    --card-foreground: 225 12% 19%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 20%;
+    --popover-foreground: 225 12% 19%;
 
-    /* Primary: Professional blue */
-    --primary: 219 70% 58%;
-    --primary-foreground: 255 255 255;
-    --primary-hover: 219 70% 52%;
+    /* Primary: Purple #7F5AF0 */
+    --primary: 258 85% 65%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 258 85% 60%;
 
-    /* Secondary: Light blue-gray */
-    --secondary: 226 232 240;
-    --secondary-foreground: 51 65 85;
+    /* Secondary: Dark gray #4A4A68 */
+    --secondary: 240 17% 35%;
+    --secondary-foreground: 0 0% 100%;
 
-    /* Muted: Subtle grays */
-    --muted: 241 245 249;
-    --muted-foreground: 100 116 139;
+    /* Muted: Light purple #D7C8F2 */
+    --muted: 260 52% 87%;
+    --muted-foreground: 240 17% 35%;
 
-    /* Accent: Purple for highlights */
-    --accent: 263 70% 64%;
-    --accent-foreground: 255 255 255;
+    /* Accent: Blue #3D9BE9 */
+    --accent: 208 78% 57%;
+    --accent-foreground: 0 0% 100%;
 
     /* Success: Green for positive metrics */
     --success: 142 76% 36%;
-    --success-foreground: 255 255 255;
+    --success-foreground: 0 0% 100%;
 
     /* Warning: Amber for attention items */
     --warning: 45 93% 47%;
-    --warning-foreground: 255 255 255;
+    --warning-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 255 255 255;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 226 232 240;
-    --input: 226 232 240;
-    --ring: 219 70% 58%;
+    --border: 260 52% 87%;
+    --input: 260 52% 87%;
+    --ring: 258 85% 65%;
 
     /* Professional gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
